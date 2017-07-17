@@ -16,3 +16,17 @@ Agrega el modulo a una posición ya sea asignada en el header o oculta tipo la p
 En el campo de texto de la configuración podrás agregar el script a agregar.
 
 Asegurate de seleccionar Mostrar titulo como Ocultar y de ser necesario en Avanzado selecciona en Estilo de modulo como "none" para dejar lo más limpio posible el modulo.
+
+Si requieres agregar jQuery por ejemplo te recomiendo agregar algo así:
+
+```
+(function($){
+
+	$(document).ready(function () {
+  
+    // Tu codigo jQuery AQUI
+  
+	});
+
+})(jQuery);
+```
